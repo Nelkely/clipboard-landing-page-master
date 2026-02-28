@@ -84,3 +84,40 @@ button {
 .contact img {
   width: 20px;
 }
+@media (min-width: 768px) {
+  body {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+  button {
+    width: 200px;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+  .final-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
